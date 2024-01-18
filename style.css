@@ -141,7 +141,9 @@ html {
 }
 
 .maincontent {
-    height: 90vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .maincontent h1 {
@@ -168,12 +170,9 @@ html {
 
 
 .maincontent h1 {
-    /* margin: 50px 280px; */
-    margin-top: 50px;
     margin-left: 280px;
     margin-right: 280px;
-    margin-bottom: 8px;
-    font-size: 3.2rem;
+    font-size: 3rem;
 }
 
 .maincontent h1 .rd {
@@ -214,8 +213,6 @@ html {
 .maincontent .join {
     display: flex;
     justify-content: center;
-    /* margin-top: -25px; */
-    margin-top: -5px;
 }
 
 .maincontent .btn-mem {
@@ -694,8 +691,8 @@ div.col-body:hover {
     color: black;
     border-radius: 10px;
     box-shadow: 10px 5px 5px #91919c;
-    height: 80vh;
-    width: 25vw;
+    height: 95vh;
+    width: 30vw;
     transform: translatex(0);
     opacity: 1;
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
@@ -706,8 +703,8 @@ div.col-body:hover {
     color: #f5f5f5;
     border-radius: 10px;
     box-shadow: 10px 5px 5px #91919c;
-    height: 60vh;
-    width: 25vw;
+    height: 68vh;
+    width: 30vw;
     transform: translatex(0);
     opacity: 1;
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
@@ -718,7 +715,7 @@ div.col-body:hover {
     color: #f5f5f5;
     border-radius: 10px;
     box-shadow: 10px 5px 5px #91919c;
-    height: 72vh;
+    height: 77vh;
     width: 25vw;
     transform: translatex(0);
     opacity: 1;
