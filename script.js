@@ -158,7 +158,7 @@ function sendEmail() {
     }).then(
         message => {
             console.log(message);
-            if (!message === 'OK') {
+            if (message === 'OK') {
                 swal("Message Sent Successfully!", "Thank You.", "success");
 
             }
