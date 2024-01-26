@@ -102,9 +102,10 @@ html {
     transition: background-color 0.5s ease-in, box-shadow 0.5s ease-out, color 0.5s ease-in-out, border 0.5s ease-in-out;
 }
 
-.joinbtn1{
+.joinbtn1 {
     margin-left: 2.5%;
 }
+
 .btn:hover {
     border: 2px solid #f5f5f5;
     color: #ffffff;
@@ -1504,7 +1505,7 @@ div.col-body:hover {
     transition: background-color 0.3s ease-out, border 0.3s ease-in-out;
 }
 
-.submit-btn:hover{
+.submit-btn:hover {
     background-color: #080870;
     border: 2px solid #f5f5f5;
 }
